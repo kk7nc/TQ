@@ -62,28 +62,20 @@ Code Explanation
 .. code:: python
 
    nModel = 9
-X_train_tfidf = TFIDF_train(X_train)
-X_test_tfidf  = TFIDF_test(X_test)
-predicted = np.zeros((len(y_test),2)).astype(float)
-for i in range(0,nModel):
-    model_DNN = Build_Model_DNN_Text(X_train_tfidf.shape[1], 2,i)
-    filepath = "weights\weights_DNN_"+str(i)+".hdf5"
-    checkpoint = ModelCheckpoint(filepath,
-                                 monitor='val_accuracy',
-                                 verbose=1,
-                                 save_best_only=True,
-                                 mode='max')
-    callbacks_list = [checkpoint]
+   X_train_tfidf = TFIDF_train(X_train)
+   X_test_tfidf  = TFIDF_test(X_test)
+   predicted = np.zeros((len(y_test),2)).astype(float)
+   for i in range(0,nModel):
+       model_DNN = Build_Model_DNN_Text(X_train_tfidf.shape[1], 2,i)
 
-    model_DNN.fit(X_train_tfidf, y_train,
-                                  validation_data=(X_test_tfidf, y_test),
-                                  epochs=120,
-                                  batch_size=64,
-                                  callbacks=callbacks_list,
-                                  verbose=2)
+       model_DNN.fit(X_train_tfidf, y_train,
+                                     validation_data=(X_test_tfidf, y_test),
+                                     epochs=120,
+                                     batch_size=64,
+                                     verbose=2)
 
-    predicted =  predicted +np.array(model_DNN.predict(X_test_tfidf)).astype(float)
-      predicted = predicted/float(nLayers)
+       predicted =  predicted +np.array(model_DNN.predict(X_test_tfidf)).astype(float)
+     predicted = predicted/float(nModel)
 
 
 
