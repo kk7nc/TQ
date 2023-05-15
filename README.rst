@@ -30,6 +30,8 @@ Integrating an NLP model into existing workflows as automated decision support c
 In other words, the NLP model was able to identify TQ cases with greater sensitivity than the human workflow. This means that the NLP model was more likely to identify TQ cases that were missed by the human workflow. This could be a significant improvement in patient care, as it could lead to earlier identification and treatment of TQ cases.
 
 Referenced paper : `Evaluating the Predictive Ability of NLP in Identifying Tertiary/Quaternary Cases in Prioritization Workflows for Interhospital Transfer <https://link.org/abs/>`__
+
+
 Code Explanation
 -----------------
 
