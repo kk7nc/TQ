@@ -87,7 +87,7 @@ Code Explanation
    :target: https://www.researchgate.net/publicatio
 .. |pdf| image:: https://img.shields.io/badge/pdf-download-red.svg?style=flat
    :target: https://github.com/kk7nc/RMDL/blob/master/docs/ACM-RMDL.pdf
-.. |GitHublicense| image:: https://img.shields.io/badge/licence-MIT-blue.svg
+.. |GitHublicense| image:: https://img.shields.io/badge/licence-GPL-blue.svg
    :target: ./LICENSE
 .. |DOI| image:: https://img.shields.io/badge/DOI-10.1111/Sapmple.111111-blue.svg?style=flat
    :target: https://doi.org/10.1145/
