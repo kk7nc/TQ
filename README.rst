@@ -1,5 +1,10 @@
 |DOI| |arxiv| |GitHublicense| |twitter|
 
+Referenced paper : `Evaluating the Predictive Ability of NLP in Identifying Tertiary/Quaternary Cases in Prioritization Workflows for Interhospital Transfer <https://link.org/abs/>`__
+
+|TQ|
+
+
 Objectives
 ----------
 
@@ -29,7 +34,7 @@ Conclusion
 Integrating an NLP model into existing workflows as automated decision support could translate to more TQ cases identified at the onset of the transfer process.
 In other words, the NLP model was able to identify TQ cases with greater sensitivity than the human workflow. This means that the NLP model was more likely to identify TQ cases that were missed by the human workflow. This could be a significant improvement in patient care, as it could lead to earlier identification and treatment of TQ cases.
 
-Referenced paper : `Evaluating the Predictive Ability of NLP in Identifying Tertiary/Quaternary Cases in Prioritization Workflows for Interhospital Transfer <https://link.org/abs/>`__
+
 
 
 Code Explanation
@@ -80,6 +85,7 @@ Code Explanation
      predicted = predicted/float(nModel)
 
 
+.. |TQ| image:: docs/RMDL_DSI2.png
 
 .. |PowerPoint| image:: https://img.shields.io/badge/Presentation-download-red.svg?style=flat
    :target: https://github.com/kk7nc/TQ
