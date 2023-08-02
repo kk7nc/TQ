@@ -1,4 +1,4 @@
-|DOI| |arxiv| |GitHublicense| |researchgate| |twitter|
+|GitHublicense|  |twitter|
 
 Referenced paper : `Evaluating the Predictive Ability of NLP in Identifying Tertiary/Quaternary Cases in Prioritization Workflows for Interhospital Transfer <https://link.org/abs/>`__
 
