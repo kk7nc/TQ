@@ -93,17 +93,7 @@ Citations
     @inproceedings{2023TQ,
          author = {Paul J. Lukac, Timothy Lee, Sitaram Vangala, Kamran Kowsari, Vu Vu, Spencer Fogelman, Michael A. Pfeffer, Douglas S. Bell },
          title = {Evaluating the Predictive Ability of NLP in Identifying Tertiary/Quaternary Cases in Prioritization Workflows for Interhospital Transfer},
-         booktitle = {Proceedings of },
-         series = {},
          year = {2023},
-         isbn = {},
-         location = {},
-         pages = {},
-         numpages = {},
-         url = {http://doi.acm.org/10.1145/3206098.3206111},
-         doi = {},
-         publisher = {},
-         address = {},
          keywords = {Natural Language Processing; Machine Learning; Decision Support Systems, Clinical; Computer Assisted Decision Making},
         } 
 
