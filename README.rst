@@ -1,6 +1,6 @@
 |GitHublicense|  |twitter|
 
-Referenced paper : `Evaluating the Predictive Ability of NLP in Identifying Tertiary/Quaternary Cases in Prioritization Workflows for Interhospital Transfer <https://link.org/abs/>`__
+Referenced paper : `Evaluating the Predictive Ability of NLP in Identifying Tertiary/Quaternary Cases in Prioritization Workflows for Interhospital Transfer <https://academic.oup.com/jamiaopen/article/6/3/ooad069/7244738>`__
 
 |TQ|
 
@@ -114,5 +114,5 @@ Citations
    :target: https://doi.org/10.1145/
 .. |arxiv| image:: https://img.shields.io/badge/arXiv-11111.1111-red.svg
     :target: https://arxiv.org/abs/xxxx.xxxx
-.. |twitter| image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social
+.. |Twitter| image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social
     :target: https://twitter.com/intent/tweet?text=Evaluating%20the%20Predictive%20Ability%20of%20NLP%20in%20Identifying%20Tertiary/Quaternary%20Cases%20in%20Prioritization%20Workflows%20for%20Interhospital%20Transfer%0aGitHub:&url=https://github.com/kk7nc/TQ&hashtags=TransferCenter,Hospital,TQ,DeepLearning,classification,MachineLearning,neural_networks,EnsembleLearning
